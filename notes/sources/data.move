@@ -1,9 +1,10 @@
+#[allow(unused_const)]
 module notes::data;
 use std::string::String;
 
 
 const TEXT: u8 = 0;
-const EN_TEXT: U8 = 1;
+const EN_TEXT: u8 = 1;
 
 public struct Data has store {
     data_type: u8,
